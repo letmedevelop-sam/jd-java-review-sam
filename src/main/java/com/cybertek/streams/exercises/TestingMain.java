@@ -32,7 +32,5 @@ public class TestingMain {
 
         System.out.println("Task-12 - Filter the genders of users and get the number of Male users");
         System.out.println(StreamDemo.findTotalMaleInCompany());
-
     }
-
 }
