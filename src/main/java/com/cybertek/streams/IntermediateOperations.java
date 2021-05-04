@@ -27,6 +27,7 @@ public class IntermediateOperations {
 
 
         System.out.println("****** MAP *******");
+        //map içerisinde return verilecek yoksa
 
         Arrays.asList("Apple", "Orange", "Kiwi", "Banana", "Apple", "Cherry", "Mango").stream().map(str->str.toUpperCase()).forEach(str-> System.out.println(str));
 

@@ -69,7 +69,7 @@ public class Main {
 
         System.out.println("*************OOP - Polymorphism *********************");
         Employee employee = new Employee();         //  Tightly coupled
-        BaseEntity employee2 = new Employee();      //  Loosly coupled, polymorphic way   Left inteface, right side class
+        BaseEntity employee2 = new Employee();      //  Loosly coupled, polymorphic way   Left interface, right side class
 
         UserServiceImplementation userServiceImplementation1 = new UserService();
 
@@ -83,6 +83,8 @@ public class Main {
         System.out.println(Gender.FEMALE);
         System.out.println(Status.IN_PROGRESS.getValue()); //will return String.
         System.out.println(Status.IN_PROGRESS.getValue().charAt(3)); //you can use string manipulation
+        System.out.println("Status.valueOf(\"OPEN\") = " + Status.valueOf("OPEN"));
+        System.out.println("Status.values() = " + Status.values());
 
         System.out.println("************ Collections *********************");
 
